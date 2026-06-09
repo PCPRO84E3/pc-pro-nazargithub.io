@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Скачати програму</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background: linear-gradient(-45deg,#020024,#090979,#000,#3a0ca3);
+    background-size:400% 400%;
+    animation:bg 10s ease infinite;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+@keyframes bg{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+.box{
+    background: rgba(0,0,0,0.75);
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    width:350px;
+    box-shadow:0 0 20px rgba(0,0,0,0.6);
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+a.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 18px;
+    background:#3a0ca3;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+a.button:hover{
+    background:#560bad;
+    transform:scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>🚀 Завантаж програму</h1>
+    <p>Натисни кнопку нижче, щоб скачати</p>
+
+    <!-- ЗАМІНИ "program.exe" НА СВІЙ ФАЙЛ -->
+    <a class="button" href="optimizer_pro.exe" download>
+        ⬇ Скачати
+    </a>
+</div>
+
+</body>
+</html>
